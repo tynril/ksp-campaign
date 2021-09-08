@@ -1,0 +1,9 @@
+{
+    "archive": ".",
+    "bodies": [
+        "Earth",
+        "Moon",
+        "Sun"
+    ],
+    "linting": {}
+}
