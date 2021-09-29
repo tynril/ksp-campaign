@@ -1,9 +1,10 @@
-RUN "0:/lib/lib".
+RUNPATH("0:/lib/lib.ks").
 
-LOCK THROTTLE TO 1.0.
-LOCK STEERING TO UP.
+SET SHIP:CONTROL:PILOTMAINTHROTTLE TO 1.0.
 
 countdown_std().
+PRINT "Liftoff!".
+STAGE.
 
 WAIT 1.5.
 PRINT "Ejecting first booster stage...".
@@ -13,10 +14,17 @@ WAIT 1.5.
 PRINT "Ejecting second booster stage...".
 STAGE.
 
-target_altitude(100000).
+WAIT 0.75.
+PRINT "Ignition of main engine...".
+STAGE.
+
+target_altitude(140000).
 
 PRINT "Waiting for descent...".
 WAIT UNTIL SHIP:verticalspeed < 0.
+
+PRINT "Separing return module...".
+STAGE.
 
 PRINT "Arming parachute...".
 chute_arm().

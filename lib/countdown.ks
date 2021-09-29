@@ -1,4 +1,4 @@
-// #include "./lib.ks"
+// #include "0:/lib/lib.ks"
 
 @LAZYGLOBAL OFF.
 
@@ -14,10 +14,5 @@ DECLARE GLOBAL FUNCTION countdown_std {
     } DO {
         PRINT "... " + countdown.
         WAIT 1.
-    }
-
-    IF stageWhenDone {
-        PRINT "Liftoff!".
-        STAGE.
     }
 }

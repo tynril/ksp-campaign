@@ -1,4 +1,4 @@
-// #include "./lib.ks"
+// #include "0:/lib/lib.ks"
 
 @LAZYGLOBAL OFF.
 

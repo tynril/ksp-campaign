@@ -1,5 +1,3 @@
-RUN "0:/lib/lib".
-
 WAIT UNTIL SHIP:UNPACKED.
 CLEARSCREEN.
 

@@ -1,8 +1,10 @@
 // We still need a manual list for the auto-completion.
-// #include "./chute.ks"
-// #include "./countdown.ks"
-// #include "./find_parts.ks"
-// #include "./target_altitude.ks"
+// #include "0:/lib/chute.ks"
+// #include "0:/lib/countdown.ks"
+// #include "0:/lib/find_parts.ks"
+// #include "0:/lib/math.ks"
+// #include "0:/lib/range_safety.ks"
+// #include "0:/lib/target_altitude.ks"
 
 @LAZYGLOBAL OFF.
 

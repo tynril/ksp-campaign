@@ -1,9 +1,11 @@
 {
-    "archive": ".",
+    "archive": "./",
     "bodies": [
         "Earth",
         "Moon",
         "Sun"
     ],
-    "linting": {}
+    "linting": {
+        "symbol-unused": "hint"
+    }
 }
